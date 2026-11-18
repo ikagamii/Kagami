@@ -1,0 +1,21 @@
+name: Feature request
+description: An idea that would make Kagami better for you.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The problem or moment where Kagami could help more.
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations: { required: true }
+  - type: dropdown
+    id: who
+    attributes:
+      label: What do you mostly use Kagami for?
+      options: [Streaming, Recording videos, Playing on the big screen, Teaching or presenting, Other]

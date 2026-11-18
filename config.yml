@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup guide
+    url: https://kagami.video/docs/
+    about: Connecting, recording, replay, the mic and OBS, step by step.
+  - name: Ask the community
+    url: https://www.reddit.com/r/KagamiApp/
+    about: Questions, setups and tips from other Kagami users.
+  - name: Account, payment or refund
+    url: https://kagami.video/contact/
+    about: Private matters go to support, never into a public issue.

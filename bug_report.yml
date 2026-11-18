@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Kagami isn't working as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Kagami better. Please don't post your email, licence or any private details here.
+  - type: dropdown
+    id: computer
+    attributes:
+      label: Computer
+      options: [Windows 10, Windows 11, Mac (Apple silicon)]
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: Kagami version
+      description: Settings → About
+      placeholder: "1.1"
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes:
+      label: Phone or tablet and its iOS / iPadOS version
+      placeholder: "iPhone 15 Pro, iOS 26.1"
+    validations: { required: true }
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection
+      options: [USB cable, Wi-Fi]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Connect over USB
+        2. Start recording
+        3. ...
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or short video (optional)
